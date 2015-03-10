@@ -20,7 +20,8 @@ class markButtons:
         self.w.open()
         
         # assign exact mark colors to the individual color buttons here.
-        # these should probably correspond to the color values you use in RoboFont
+        # these should probably correspond to the color values you use in RoboFont.
+        # The key needs to correspond to the button name that belongs to it (= "<key>Button")
         self.markColors = {
             "green": (0.7311, 1.0, 0.1645, 1.0),
             "red": (0.8936, 0.0, 0.2533, 1.0),
