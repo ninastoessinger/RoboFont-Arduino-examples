@@ -9,7 +9,7 @@
 """
 
 import vanilla
-from mojo.events import addObserver, removeObserver, postEvent
+from mojo.events import addObserver, removeObserver
 from mojo.roboFont import OpenWindow
 
 class markButtons:    
